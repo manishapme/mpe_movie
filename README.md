@@ -9,16 +9,23 @@ The system is pure python with a little bit of Bootstrap for front-end formattin
 ### Prerequisites
 
 Have Python 2.7.13 >= <3.0 installed.
+
 Have pip installed
+
 Install `virtualenv` with pip ```[sudo] pip install virtualenv``` 
 
 ### Installing
 
 Git clone repo
+
 Navigate to correct directory `cd mpe_movie`
+
 Set up virtual environment```virtualenv env```
+
 Activate virtual environment ```source env/bin/activate```
+
 Install requirements ```pip install -r requirements.txt```
+
 Populate `movie_data.py` with a list of movie objects following the format given.
 
 ### Running
@@ -26,8 +33,11 @@ Populate `movie_data.py` with a list of movie objects following the format given
 To run simply execute ```python media_center.py``` in your console.
 
 ## Built With
+
 Python
+
 Jinja2
+
 Bootstrap
 
 ## Authors
